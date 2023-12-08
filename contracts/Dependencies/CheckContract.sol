@@ -10,7 +10,7 @@ contract CheckContract {
      */
     function checkContract(address _account) internal view {
         require(_account != address(0), "Account cannot be zero address");
-
+        
         uint256 size;
         // solhint-disable-next-line no-inline-assembly
         assembly { size := extcodesize(_account) }

@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="694c0c1f-945d-4ec2-ac7c-264f02398542" name="更改" comment="pre-version" />
+    <list default="true" id="694c0c1f-945d-4ec2-ac7c-264f02398542" name="更改" comment="base verison">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/Dependencies/MagmaProxyAdmin.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/Dependencies/MagmaUpgradeableProxy.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/Dependencies/OwnableUpgradeable.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardhat.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/ActivePool.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ActivePool.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/BorrowerOperations.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/BorrowerOperations.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/CollSurplusPool.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/CollSurplusPool.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/DefaultPool.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/DefaultPool.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Dependencies/CheckContract.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Dependencies/CheckContract.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Dependencies/LiquityBase.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Dependencies/LiquityBase.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/HintHelpers.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/HintHelpers.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Interfaces/IBorrowerOperations.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Interfaces/IBorrowerOperations.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Interfaces/ITroveManager.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Interfaces/ITroveManager.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/LQTY/CommunityIssuance.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/LQTY/LQTYStaking.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/LQTY/LQTYToken.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/LQTY/LockupContract.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/LQTY/LockupContractFactory.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/LUSDToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/LUSDToken.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Migrations.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Proxy/BorrowerOperationsScript.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Proxy/BorrowerWrappersScript.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Proxy/ETHTransferScript.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Proxy/LQTYStakingScript.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Proxy/StabilityPoolScript.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Proxy/TokenScript.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Proxy/TroveManagerScript.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/SortedTroves.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/SortedTroves.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/StabilityPool.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/StabilityPool.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/TroveManager.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/TroveManager.sol" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +48,20 @@
   <component name="GOROOT" url="file:///opt/homebrew/Cellar/go@1.20/1.20.10/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "paulsecure3"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2674f908-bad0-4e81-8e7f-a08c1c07b2c5" />
+        <option name="url" value="https://github.com/paulsecure3/liquity" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -25,30 +74,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/zpan",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zpan&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pre-version" />
-    <option name="LAST_COMMIT_MESSAGE" value="pre-version" />
+    <MESSAGE value="base verison" />
+    <option name="LAST_COMMIT_MESSAGE" value="base verison" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
